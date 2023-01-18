@@ -1,0 +1,12 @@
+body {
+    font-family: 'Charm', cursive;
+}
+
+.textbox {
+    color: rgb(2, 243, 243);
+    background-color: rgb(90, 164, 248);
+    border: 2.5px solid rgb(97, 136, 243);
+    box-shadow: 7px 3px 2px 4px rgba(90, 171, 247, 0.603);
+    padding: auto;
+    text-align: center;
+}
