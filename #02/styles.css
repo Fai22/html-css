@@ -1,0 +1,8 @@
+.textbox {
+    color: palevioletred;
+    background-color: rgba(250, 218, 170, 0.836);
+    border: 2.5px solid;
+    box-shadow: 4px 4px 8px 4px rgba(247, 190, 144, 0.623);
+    padding: 20px;
+    text-align: center;
+}
