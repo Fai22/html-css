@@ -1,0 +1,11 @@
+.imge {
+    width: 10%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
