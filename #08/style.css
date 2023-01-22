@@ -1,0 +1,23 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.landing {
+    background-color: #9eecff;
+    background-image: url('https://www.wallpaperbetter.com/wallpaper/491/58/366/winter-trees-snow-white-sky-love-heart-2K-wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 500px 40px;
+
+}
+
+.title {
+    color: plum;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
