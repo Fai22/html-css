@@ -1,0 +1,11 @@
+body {
+    background-color: burlywood;
+}
+
+.imge {
+    width: 100%;
+    filter: brightness(86%);
+    filter: grayscale(64%);
+    filter: hue-rotate(360deg);
+    filter: sepia(30%);
+}
