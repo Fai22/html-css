@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: 300px auto;
+   grid-template-rows: 200px minmax(250px, auto) 200px;
+   grid-template-areas: 
+            'header header'
+            'leftber main'
+            'footer footer';
+}
+
+.top-header {
+    grid-area: header;
+}
+
+.top-leftber {
+    grid-area: leftber;
+}
+
+.top-main {
+    grid-area: main;
+}
+
+.top-footer {
+    grid-area: footer;
+}
+
+.content {
+    color: lightgrey;
+    background-color: white;
+    border: 1.5px solid lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
