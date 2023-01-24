@@ -1,0 +1,32 @@
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    margin: 0px -10px;
+}
+
+.item {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    
+  
+}
+
+.item-4 {
+    width: 1700px;
+
+}
+
+.item-8 {
+    width: 200px;
+}
+
+.content {
+    color: lightgray;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(212, 210, 210);
+    padding: 15px;
+}
