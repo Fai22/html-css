@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+   justify-items: start;
+   align-items: center;
+}
+
+.content {
+    color: lightgrey;
+    background-color: white;
+    border: 1.5px solid lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
