@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="https://httpbin.org/post" method="post">
+        <p>
+            <label for="input-fullname">Uername</label>
+        </p>
+        <p>
+            <input id="input-fullname" type="text" name="fullname">
+        </p>
+        <p>
+            <label for="input-email">Email</label>
+        </p>
+        <p>
+            <input id="input-email" type="email" name="input-email">
+        </p>
+        <p>
+            <label for="input-comment">comment</label>
+        </p>
+        <p>
+            <textarea id="input-comment" name="input-comment" rows="10"></textarea>
+        </p>
+         <p>ข้อตกลง</p>
+        <p>
+            <input id="input-hi-yes" type="radio"  name="hi" value="yes"><label for="input-hi-ok">ok</label>
+            <input id="input-hi-maybe" type="radio" name="hi" value="maybe"><label for="input-hi-maybe">maybe</label>
+            <input id="input-hi-no" type="radio"  name="hi" value="no"><label for="input-hi-no">no</label>
+        </p>
+        <p>ข้อตกลง</p>
+        <p>
+            <input id="input-hi-yes" type="checkbox"  name="hi" value="yes"><label for="input-hi-ok">ok</label>
+            <input id="input-hi-maybe" type="checkbox" name="hi" value="maybe"><label for="input-hi-maybe">maybe</label>
+            <input id="input-hi-no" type="checkbox"  name="hi" value="no"><label for="input-hi-no">no</label>
+        </p>
+        <p>ข้อตกลง</p>
+        <p>
+            <select name="hi" id="input-hi">
+                <option value="yes">yes</option>
+                <option value="maybe">maybe</option>
+                <option value="no">no</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">ส่งข้อมูล</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
