@@ -1,0 +1,10 @@
+.my-tabel th,
+.my-tabel td {
+    border: 1PX solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.my-tabel {
+    border-collapse: collapse;
+}
