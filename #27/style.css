@@ -1,0 +1,40 @@
+.box {
+    color: azure;
+    background-color: aqua;
+    border: 1.5px solid blue;
+    font-size: 20px;
+    display: inline-block;
+    margin: 30px;
+    padding: 60px 20px;
+    text-align: center;
+    width: 80px;
+  
+
+}
+
+.box-1 {
+    animation: box-jumping 1s 0s 3;
+}
+
+.box-2 {
+    animation: box-jumping 1s 1s 3;
+}
+
+.box-3 {
+    animation: box-jumping 1s 2s 3;
+}
+
+@keyframes box-jumping {
+    0% {
+        transform: translateY(0%);
+        animation-timing-function: ease-in-out;
+    }
+    50% {
+        transform: translateY(-100%);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateY(0%);
+        
+    }
+}
