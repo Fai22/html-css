@@ -1,0 +1,62 @@
+/*index*/
+.link-input {
+    color: black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.link-input:hover {
+    color: rgba(67, 218, 241, 0.69);
+    background-color: rgba(255, 182, 193, 0.689);
+}
+
+.text-input {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.text-input:focus {
+    background-color: lightblue;
+    border-color: lightpink;
+   
+}
+
+/*index1*/
+.mo-test {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.mo-test p {
+    margin:  0;
+}
+
+.mo-test p:first-of-type {
+    font-size: 60px;
+}
+
+.mo-test p:nth-of-type(2) {
+    font-size: 50px;
+}
+
+.mo-test p:nth-of-type(3) {
+    font-size: 40px;
+}
+
+.mo-test p:last-of-type {
+    font-size: 30px;
+}
+
+.mo-test p:nth-of-type(2n) {
+    color: red;
+}
+
+.mo-test p:nth-of-type(2n - 1) {
+    color: blue;
+}
