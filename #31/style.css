@@ -1,0 +1,34 @@
+.myself {
+    position: relative;
+}
+
+
+                
+
+}
+
+.myself-imge {
+    display: block;
+   height: 1000px;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+
+}
+
+.myself-overlay {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 35%, rgba(0, 0, 0, 0.43) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.myself-text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 4px;
+}
