@@ -1,0 +1,23 @@
+.myself {
+    border: 2.5px solid palevioletred;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+::selection {
+    background-color: lightcoral;
+}
+
+.myself-text::first-line {
+    font-size: 40px;
+}
+
+.myself::before,
+.myself::after {
+    content: '"';
+    font-size: 50px;
+    color: lightsalmon;
+    display: block;
+    margin-top: 20px;
+}
